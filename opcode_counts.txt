@@ -1,0 +1,43 @@
+Opcode 00 (NOP): 3
+Opcode 04 (INR B): 2
+Opcode 05 (DCR B): 2
+Opcode 06 (MVI B,D8): 12
+Opcode 0C (INR C): 2
+Opcode 0D (DCR C): 6
+Opcode 0E (MVI C,D8): 13
+Opcode 17 (RAL): 2
+Opcode 1F (RAR): 2
+Opcode 2F (CMA): 1
+Opcode 32 (STA adr): 1
+Opcode 3A (LDA adr): 2
+Opcode 3C (INR A): 8
+Opcode 3D (DCR A): 2
+Opcode 3E (MVI A,D8): 32
+Opcode 41 (MOV B,C): 1
+Opcode 47 (MOV B,A): 1
+Opcode 48 (MOV C,B): 1
+Opcode 4F (MOV C,A): 1
+Opcode 76 (HLT): 35
+Opcode 78 (MOV A,B): 3
+Opcode 79 (MOV A,C): 4
+Opcode 80 (ADD B): 4
+Opcode 81 (ADD C): 3
+Opcode 90 (SUB B): 3
+Opcode 91 (SUB C): 1
+Opcode A0 (ANA B): 2
+Opcode A1 (ANA C): 2
+Opcode A8 (XRA B): 1
+Opcode A9 (XRA C): 1
+Opcode AB (XRA E): 1
+Opcode B0 (ORA B): 1
+Opcode B1 (ORA C): 1
+Opcode C2 (JNZ adr): 1
+Opcode C3 (JMP adr): 3
+Opcode C9 (RET): 1
+Opcode CA (JZ adr): 3
+Opcode CD (CALL adr): 1
+Opcode D3 (OUT D8): 37
+Opcode E6 (ANI D8): 2
+Opcode EE (XRI D8): 1
+Opcode F6 (ORI D8): 1
+Opcode FA (JM adr): 1
